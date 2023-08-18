@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+  }
+  .movie-card {
+    background-color: #ffffff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    position: relative;
+  }
+  .movie-card .movie-poster {
+    max-width: 100%;
+    height: auto;
+  }
+  .movie-card .movie-info {
+    margin: 10px 0;
+  }
+  .movie-card .movie-title {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .movie-card .movie-genre {
+    font-size: 14px;
+    color: #555;
+  }
+  .movie-card .star-rating {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  .movie-card .star {
+    font-size: 24px;
+    color: #ccc;
+    cursor: pointer;
+    transition: color 0.2s;
+  }
+  .movie-card .star:hover, .movie-card .star.active {
+    color: gold;
+  }
+  .cart-button {
+    background-color: transparent;
+    color: #007bff;
+    border: none;
+    border-radius: 4px;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  .cart-button:hover {
+    background-color: rgba(0, 123, 255, 0.1);
+  }
+  .buy-button {
+    background-color: #4caf50;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 15px;
+  }
+  
